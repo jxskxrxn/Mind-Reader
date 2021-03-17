@@ -1,0 +1,2 @@
+Mind Reader - Python
+This is a basic game where the user will be shown 3 rows of 11 playing cards and they will be asked to pick a card. This will be repeated 3 times and the user will have to pick the row number in which the chosen card is in. After 3 attempts the program should be able to guess the user's chosen card.
