@@ -15,14 +15,19 @@ deck = createADeck()
 
 random.shuffle(deck)
 
-print(random.sample(deck, 4))
+initialFour = random.sample(deck, 4)
+
+print(initialFour)
 
 memory = input("Memorise a Card from the given options and i will make it disappear! \nPress the enter key when you are ready! ")
 
-print(random.sample(deck, 4))
+random.shuffle(initialFour)
+oldThree = initialFour[0:3]
+newCard = random.sample(deck, 1)
+print(oldThree + newCard)
 
 mindFreak = input("Did I manage to remove the card you were thinking of?: ")
 
-print("I am the best mind reader!! Mind = Blown!!")
+
 
 
