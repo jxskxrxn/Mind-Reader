@@ -26,7 +26,7 @@ oldThree = initialFour[0:3]
 newCard = random.sample(deck, 1)
 print(oldThree + newCard)
 
-mindFreak = input("Did I manage to remove the card you were thinking of?: (y or n)")
+mindFreak = input("Did I manage to remove the card you were thinking of?(y or n): ")
 
 if mindFreak == "y":
   print("I am the best Mind-Reader!!!")
